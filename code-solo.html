@@ -5,27 +5,34 @@
     <style>
         /* Wally the Wombat wants to update their profile - let's help them out. */
         /* 1. Change the color of the <h1> tag. Remember, the property to change the color of text is color and the value is the name of the color you want (or use a hex code!) */
-        
+        h1 {
+            color:rgb(0, 70, 21);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
         
         /* 2. Using body as our selector, change the background-color to whatever color you want. */
         body {
-            font-family: Arial, sans-serif;
             text-align: center;
+            background-color: #9de9b0;
         }
-
+        p {
+            font-family: cursive;
+        }
         .profile-container {
             width: 80%;
-            margin: 20px auto;
+            margin: 50px auto;
+
             padding: 20px;
-            border: 1px solid #ccc;
+            border: 10px solid #0a583a;
         }
 
         /* This is a class selector - more on this next session! */
         .wombat-image {
             /* 3. Change the value of max-width to 400px. */
-            max-width: 300px;
-            
+            width: 900px;
+            height: 50px;
             /* 4. Add a property called border-radius and set the value to 50%. What happens? */
+            border-radius: 20%;
 
 
         }
@@ -41,7 +48,7 @@
     <div class="profile-container">
         <h1>Wally the Wombat</h1>
         <img src="https://images.squarespace-cdn.com/content/v1/58d455a81b10e32d5857f310/1653018543864-59U04M5CG67GIZNLZFCJ/Wombat-Habitats.jpg" alt="Wombat Picture" class="wombat-image">
-        <p>Wally is a friendly wombat from the forests of Australia. He enjoys digging tunnels, eating roots and leaves, and spending time with his family.</p>
+        <p>Wally is a friendly wombat from the forests of Australia. <br> He enjoys digging tunnels, eating roots and leaves, and spending time with his family.</p>
     </div>
 </body>
 </html>
